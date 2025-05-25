@@ -4,10 +4,15 @@ Este projeto tem como objetivo prever o valor mediano das casas para os distrito
 
 ## Principais resultados
 O estudo foi dividido em cinco partes principais, cada uma com seu próprio caderno na `notebooks` pasta:
+
 1.**Limpeza de dados e engenharia de recursos**: O conjunto de dados foi limpo e transformado para melhorar o desempenho dos modelos de aprendizado de máquina. [Caderno 1](notebooks/01-jb-limpeza_e_tratamento_de_dados.ipynb).
+
 2.**Análise exploratória de dados**: O conjunto de dados foi analisado para compreender a distribuição das características e da variável-alvo. [Caderno 2](notebooks/02-jb-eda.ipynb).
+
 3.****:. [Caderno 3](notebooks/03-jb-geolocalizacao.ipynb).
+
 4.****:. [Caderno 4](notebooks/04-jb-modelos.ipynb).
+
 5.****:. [Caderno 5](home.py).
 
 ## Um pouco mais sobre a base
