@@ -1,12 +1,18 @@
-# Modelo de projeto de ciência de dados
+# Projeto de previsão de preços de casas na Califórnia
 
-Modelo de projeto de ciência de dados para ser utilizado como referência em projetos
-futuros. Desenvolvido por mim, [Francisco Bustamante](https://github.com/chicolucio),
-para alunos iniciantes em ciência de dados de meus cursos e mentorias.
+Este projeto tem como objetivo prever o valor mediano das casas para os distritos da Califórnia usando aprendizado de máquina.
 
-Inspiração: [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
+## Principais resultados
+O estudo foi dividido em cinco partes principais, cada uma com seu próprio caderno na `notebooks` pasta:
+1.**Limpeza de dados e engenharia de recursos**: O conjunto de dados foi limpo e transformado para melhorar o desempenho dos modelos de aprendizado de máquina. [Caderno 1](notebooks/01-jb-limpeza_e_tratamento_de_dados.ipynb).
+2.**Análise exploratória de dados**: O conjunto de dados foi analisado para compreender a distribuição das características e da variável-alvo. [Caderno 2](notebooks/02-jb-eda.ipynb).
+3.****:. [Caderno 3](notebooks/03-jb-geolocalizacao.ipynb).
+4.****:. [Caderno 4](notebooks/04-jb-modelos.ipynb).
+5.****:. [Caderno 5](home.py).
 
-Clique no botão **Use this template** para criar um novo repositório com base neste modelo.
+## Um pouco mais sobre a base
+
+[Clique aqui](referencias/dicionario_de_dados.md) para ver o dicionário de dados da base utilizada.
 
 ## Organização do projeto
 
@@ -33,7 +39,7 @@ Clique no botão **Use this template** para criar um novo repositório com base 
 |
 ├── referencias        <- Dicionários de dados, manuais e todos os outros materiais explicativos.
 |
-├── relatorios         <- Análises geradas em HTML, PDF, LaTeX, etc.
+├── relatorios         <- Dicionários de dados.
 │   └── imagens        <- Gráficos e figuras gerados para serem usados em relatórios
 ```
 
@@ -57,30 +63,3 @@ Clique no botão **Use this template** para criar um novo repositório com base 
     para o arquivo `requirements.txt` ou outro formato de sua preferência. Adicione o
     arquivo ao controle de versão, removendo o arquivo `ambiente.yml`.
 
-3. Verifique o arquivo `notebooks/01-fb-exemplo.ipynb` para exemplos
-de uso do código.
-4. Renomeie o arquivo `notebooks/01-fb-exemplo.ipynb` para um nome
-mais apropriado ao seu projeto. E siga a convenção de nomenclatura para os demais
-notebooks.
-5. Remova arquivos de exemplo e adicione os arquivos de dados e notebooks do seu
-projeto.
-6. Verifique o arquivo `notebooks/src/config.py` para configurações básicas do projeto.
-Modifique conforme necessário, adicionando ou removendo caminhos de arquivos e
-diretórios.
-7. Atualize o arquivo `referencias/01_dicionario_de_dados.md` com o dicionário de dados
-do seu projeto.
-8. Atualize o `README.md` com informações sobre o seu projeto.
-9. Adicione uma licença ao projeto. Clique
-[aqui](https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
-se precisar de ajuda para escolher uma licença.
-10. Renomeie o arquivo `.env.exemplo` para `.env`
-11. Adicione variáveis de ambiente sensíveis ao arquivo `.env`.
-
-Por padrão, o arquivo `.gitignore` já está configurado para ignorar arquivos de dados e
-arquivos de Notebook (para aqueles que usam ferramentas como
-[Jupytext](https://jupytext.readthedocs.io/en/latest/) e similares). Adicione ou remova
-outros arquivos e diretórios do `.gitignore` conforme necessário. Caso deseje adicionar
-forçadamente um Notebook ao controle de versão, faça um commit forçado com o
-comando `git add --force NOME_DO_ARQUIVO.ipynb`.
-
-Para mais informações sobre como usar Git e GitHub, [clique aqui](https://cienciaprogramada.com.br/2021/09/guia-definitivo-git-github/). Sobre ambientes virtuais, [clique aqui](https://cienciaprogramada.com.br/2020/08/ambiente-virtual-projeto-python/).
